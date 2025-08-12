@@ -5,6 +5,7 @@ import VideoSection from "@/components/site/VideoSection";
 import Footer from "@/components/site/Footer";
 import CableGraphic from "@/components/site/CableGraphic";
 import RevenueSimulator from "@/components/site/RevenueSimulator";
+import ValoriserSection from "@/components/site/ValoriserSection";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
         <HeroSection />
         <CableGraphic />
         <VideoSection />
+        <ValoriserSection />
         <RevenueSimulator />
       </main>
       <Footer />
