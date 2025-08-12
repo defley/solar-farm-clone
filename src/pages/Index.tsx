@@ -3,6 +3,8 @@ import Header from "@/components/site/Header";
 import HeroSection from "@/components/site/HeroSection";
 import VideoSection from "@/components/site/VideoSection";
 import Footer from "@/components/site/Footer";
+import CableGraphic from "@/components/site/CableGraphic";
+import RevenueSimulator from "@/components/site/RevenueSimulator";
 
 const Index = () => {
   return (
@@ -11,7 +13,9 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <CableGraphic />
         <VideoSection />
+        <RevenueSimulator />
       </main>
       <Footer />
     </div>
