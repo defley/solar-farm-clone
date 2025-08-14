@@ -1,26 +1,32 @@
-import TopBar from "@/components/site/TopBar";
-import Header from "@/components/site/Header";
-import HeroSection from "@/components/site/HeroSection";
-import VideoSection from "@/components/site/VideoSection";
-import Footer from "@/components/site/Footer";
-import CableGraphic from "@/components/site/CableGraphic";
-import RevenueSimulator from "@/components/site/RevenueSimulator";
-import ValoriserSection from "@/components/site/ValoriserSection";
+import FSHeader from "@/components/fs/FSHeader";
+import Hero from "@/components/fs/Hero";
+import VideoSection from "@/components/fs/VideoSection";
+import CableSection from "@/components/CableSection";
+import ValueProposition from "@/components/fs/ValueProposition";
+import GainSection from "@/components/fs/GainSection";
+import TransparencySection from "@/components/fs/TransparencySection";
+import LandscapeBanner from "@/components/fs/LandscapeBanner";
+import PromiseSection from "@/components/fs/PromiseSection";
+import Simulator from "@/components/fs/Simulator";
+import SimulateurToiture from "@/components/fs/SimulateurToiture";
+import Footer from "@/components/fs/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <TopBar />
-      <Header />
-      <main>
-        <HeroSection />
-        <CableGraphic />
-        <VideoSection />
-        <ValoriserSection />
-        <RevenueSimulator />
-      </main>
+    <main className="min-h-screen bg-background">
+      <FSHeader />
+      <Hero />
+      <VideoSection />
+      <CableSection />
+      <SimulateurToiture />
+      <ValueProposition />
+      <GainSection />
+      <TransparencySection />
+      <LandscapeBanner />
+      <PromiseSection />
+      <Simulator />
       <Footer />
-    </div>
+    </main>
   );
 };
 
